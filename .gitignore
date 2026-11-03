@@ -1,0 +1,28 @@
+# Raw and processed large genomic data files
+data/
+data/raw/
+data/processed/
+
+# Local R packages and virtual environments
+rlib/
+.venv/
+__pycache__/
+*.pyc
+
+# Archive of temporary, testing, and debugging scripts
+archive/
+
+# R session data, history, and workspace files
+*.RData
+*.rds
+.Rhistory
+.Rproj.user/
+.Ruserdata
+
+# Logs containing system-specific absolute paths
+logs/
+
+# Operating system artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
