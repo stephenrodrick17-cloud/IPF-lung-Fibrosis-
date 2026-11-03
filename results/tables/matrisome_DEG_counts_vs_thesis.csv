@@ -1,0 +1,4 @@
+"dataset","modeA_up","modeA_down","modeA_total","modeB_up","modeB_down","modeB_total","thesis","diff_modeB_vs_thesis","diff_modeA_vs_thesis"
+"GSE24206",97,38,135,181,83,264,358,-94,-223
+"GSE32539",103,59,162,103,59,162,149,13,13
+"GSE110147",164,212,376,164,212,376,339,37,37

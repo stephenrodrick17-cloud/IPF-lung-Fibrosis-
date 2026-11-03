@@ -1,0 +1,3 @@
+"cohort","n_iterations","observed_signature_AUC","mean_null_AUC","sd_null_AUC","q95_null_AUC","empirical_p_value"
+"GSE53845 (Microarray)",1000,1,0.7515,0.1787,0.9719,0.003996003996004
+"GSE150910 (RNA-seq)",1000,0.9452,0.6851,0.132,0.8772,0.002997002997003

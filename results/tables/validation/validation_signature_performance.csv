@@ -1,0 +1,7 @@
+"cohort","model","n_genes_evaluated","frozen_cutoff","AUC","AUC_CI_lower","AUC_CI_upper","Sensitivity","Specificity","Accuracy","PPV","NPV"
+"GSE53845 (Microarray)","Full 12-Gene Signature",12,-5.2292,1,1,1,0.925,1,0.9375,1,0.7273
+"GSE53845 (Microarray)","Validated Subset (n=8)",8,-2.3118,1,1,1,0.925,1,0.9375,1,0.7273
+"GSE53845 (Microarray)","Core Replicated Subset (n=6)",6,-1.8556,1,1,1,0.925,1,0.9375,1,0.7273
+"GSE150910 (RNA-seq)","Full Signature (11 genes present)",11,-5.2292,0.9452,0.9129,0.9776,1,0.4951,0.7476,0.6645,1
+"GSE150910 (RNA-seq)","Validated Subset (n=9)",9,-3.7383,0.9643,0.937,0.9915,0.9903,0.6019,0.7961,0.7133,0.9841
+"GSE150910 (RNA-seq)","Core Replicated Subset (n=6)",6,-1.8556,0.9614,0.9334,0.9893,0.9806,0.6699,0.8252,0.7481,0.9718

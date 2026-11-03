@@ -1,0 +1,4 @@
+"Cohort","AUC","CI_95_low","CI_95_high","Sensitivity","Specificity","Accuracy","PPV","NPV"
+"GSE32539 (Discovery)",0.999,0.9972,1,0.9832,1,0.9881,1,0.9608
+"GSE110147 (Validation 1)",1,1,1,1,1,1,1,1
+"GSE24206 (Validation 2)",1,1,1,1,1,1,1,1

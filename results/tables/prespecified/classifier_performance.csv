@@ -1,0 +1,11 @@
+"dataset","cohort_type","model","n_samples","n_IPF","n_Control","AUC","AUC_CI_lower","AUC_CI_upper","Balanced_Accuracy","Sensitivity","Specificity"
+"GSE32539 (CV)","Internal_CV","Model 1: Ridge Logistic",168,119,49,0.9938,0.9862,1,0.9832,0.9664,1
+"GSE32539 (CV)","Internal_CV","Model 2: Unweighted Directional Score",168,119,49,0.9885,0.9752,1,0.9748,0.9496,1
+"GSE110147","External_Discovery_Cohort","Model 1: Ridge Logistic",33,22,11,1,1,1,1,1,1
+"GSE110147","External_Discovery_Cohort","Model 2: Unweighted Directional Score",33,22,11,1,1,1,1,1,1
+"GSE24206","External_Discovery_Cohort","Model 1: Ridge Logistic",15,9,6,1,1,1,1,1,1
+"GSE24206","External_Discovery_Cohort","Model 2: Unweighted Directional Score",15,9,6,1,1,1,1,1,1
+"GSE135065","Independent_Validation","Model 1: Ridge Logistic",18,9,9,0.3086,0.0239,0.5934,0.5556,1,0.1111
+"GSE135065","Independent_Validation","Model 2: Unweighted Directional Score",18,9,9,0.284,0,0.5725,0.5556,1,0.1111
+"GSE135065 (Baseline untreated)","Independent_Subanalysis","Model 1: Ridge Logistic",6,3,3,1,1,1,1,1,1
+"GSE135065 (Baseline untreated)","Independent_Subanalysis","Model 2: Unweighted Directional Score",6,3,3,1,1,1,1,1,1

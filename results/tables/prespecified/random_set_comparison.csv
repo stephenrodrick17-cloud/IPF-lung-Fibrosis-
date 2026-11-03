@@ -1,0 +1,5 @@
+"comparison_type","n_iterations","observed_15gene_AUC","mean_null_AUC","sd_null_AUC","q95_null_AUC","empirical_p_value"
+"Network_Random_15",1000,0.9887,0.9393,0.0339,0.9825,0.022977022977023
+"Matrisome_Random_15",1000,0.9887,0.9606,0.0264,0.9921,0.0889110889110889
+"Shared_45_DEG_Random_15",1000,0.9887,0.9936,0.0027,0.9974,0.953046953046953
+"Label_Permutations",200,0.9887,0.5006,0.0487,0.5783,0.00497512437810945
