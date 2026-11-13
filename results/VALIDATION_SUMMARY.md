@@ -43,6 +43,12 @@ The 12-gene diagnostic matrisome signature (**FNDC1, ASPN, SFRP2, CXCL14, ECM2, 
 - **10 of 12 Genes Validated in at Least One Cohort**.
 - **0 Genes Inverted Direction**: All 12 genes remained consistently elevated in IPF across all cohorts.
 
+### Gene-by-Cohort Validation Status Plot
+
+The plot [gene_validation_status.png](./figures/validation/gene_validation_status.png) shows the strict validation outcome for every signature gene in both held-out cohorts. It distinguishes genes that are not significant after FDR correction from genes that are significant but have AUC below 0.70, and marks missing genes separately. Recreate the PNG and PDF from the saved validation results by running `python scripts/14_validation_status_plot.py` from the project directory.
+
+The expression-style plot [validation_expression_boxplots.png](./figures/validation/validation_expression_boxplots.png) shows individual samples and IPF/control boxplots for each discovery gene in each cohort. Significance stars use the corresponding limma FDR-adjusted p-value; `ns` means not significant and `ND` means not detected.
+
 ---
 
 ## 2. Independent Cohort Selection & Leakage Audit
@@ -137,4 +143,3 @@ All figures and tables have been generated and saved:
 - `validation_signature_performance.csv`: Diagnostic metrics (AUC, 95% CI, Sensitivity, Specificity, Accuracy, PPV, NPV) across all models.
 - `random_permutation_matrisome_12genes.csv`: 1,000-iteration permutation test statistics and empirical p-values.
 - `researcher_hubs_validation.csv`: Validation benchmarks for the researcher's 15 PPI hub genes.
-
